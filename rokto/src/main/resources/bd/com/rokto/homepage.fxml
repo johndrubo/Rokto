@@ -17,10 +17,10 @@
          <children>
             <ImageView fitHeight="203.0" fitWidth="230.0" layoutX="-2.0" layoutY="-2.0">
                <image>
-                  <Image url="@../../../../../../img/Blood%20Donation%20Logo.png" />
+                  <Image url="@../../../../../img/Blood%20Donation%20Logo.png" />
                </image>
             </ImageView>
-            <Text layoutX="300.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rokto " wrappingWidth="253.41085815429688">
+            <Text layoutX="299.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rokto " wrappingWidth="256.6108703613281">
                <font>
                   <Font name="Tahoma" size="96.0" />
                </font>
