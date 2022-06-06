@@ -1,4 +1,6 @@
 # Rokto
+![completion](https://user-images.githubusercontent.com/31840271/172211145-f38bb6bd-29a1-4e78-a59f-c65eb1b12fb4.png)
+
 Rokto-An innovative blood bank
 
 In this day and age, convenience is a luxury.
