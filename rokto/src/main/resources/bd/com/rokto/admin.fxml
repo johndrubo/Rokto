@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: #F2B8B8;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bd.com.rokto.Admin">
+   <children>
+      <Pane layoutX="2.0" prefHeight="200.0" prefWidth="902.0" style="-fx-background-color: #db4d4d;">
+         <children>
+            <ImageView fitHeight="203.0" fitWidth="230.0">
+               <image>
+                  <Image url="@../../../../../img/Blood%20Donation%20Logo.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="301.0" layoutY="106.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rokto " wrappingWidth="256.6108703613281">
+               <font>
+                  <Font name="Tahoma" size="96.0" />
+               </font>
+            </Text>
+            <Text layoutX="402.0" layoutY="152.0" strokeType="OUTSIDE" strokeWidth="0.0" text="an innovative bloodbank">
+               <font>
+                  <Font size="31.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Text layoutX="322.0" layoutY="270.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Admin Login" wrappingWidth="311.8108825683594">
+         <font>
+            <Font name="Tahoma" size="50.0" />
+         </font>
+      </Text>
+      <Text layoutX="293.0" layoutY="324.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User ID: ">
+         <font>
+            <Font name="Tahoma" size="25.0" />
+         </font>
+      </Text>
+      <TextField layoutX="414.0" layoutY="300.0" prefHeight="29.0" prefWidth="248.0" promptText="Please Enter your ID here." />
+      <Text layoutX="293.0" layoutY="375.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password: ">
+         <font>
+            <Font name="Tahoma" size="25.0" />
+         </font>
+      </Text>
+      <TextField layoutX="414.0" layoutY="352.0" prefHeight="30.0" prefWidth="248.0" promptText="Please Enter your Password here." />
+   </children>
+</AnchorPane>

@@ -10,50 +10,47 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
+
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: #F2B8B8;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <AnchorPane prefHeight="133.0" prefWidth="900.0" style="-fx-background-color: #db4d4d;">
-         <children>
-            <ImageView fitHeight="139.0" fitWidth="157.0" layoutX="-2.0" layoutY="-5.0">
-               <image>
-                  <Image url="@../../../../../img/Blood%20Donation%20Logo.png" />
-               </image>
-            </ImageView>
-            <Text layoutX="282.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rokto " wrappingWidth="307.0108337402344">
-               <font>
-                  <Font name="Tahoma" size="80.0" />
-               </font>
-            </Text>
-            <Text layoutX="382.0" layoutY="112.0" strokeType="OUTSIDE" strokeWidth="0.0" text="an innovative bloodbank">
-               <font>
-                  <Font size="30.0" />
-               </font>
-            </Text>
-         </children>
-      </AnchorPane>
-      <AnchorPane layoutY="134.0" prefHeight="469.0" prefWidth="900.0">
+      <ImageView fitHeight="139.0" fitWidth="157.0" layoutY="5.0">
+         <image>
+            <Image url="@../../../../../img/Blood%20Donation%20Logo.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="292.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rokto " wrappingWidth="307.0108337402344">
+         <font>
+            <Font name="Tahoma" size="80.0" />
+         </font>
+      </Text>
+      <Text layoutX="392.0" layoutY="122.0" strokeType="OUTSIDE" strokeWidth="0.0" text="an innovative bloodbank">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <AnchorPane layoutX="10.0" layoutY="144.0" prefHeight="469.0" prefWidth="900.0">
          <children>
             <Pane layoutX="486.0" layoutY="90.0" prefHeight="346.0" prefWidth="366.0" style="-fx-background-color: #E3CAC8;">
                <children>
-                  <Text layoutX="38.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pickup location: ">
+                  <Text layoutX="32.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Where do you want to donate?:" wrappingWidth="223.0">
                      <font>
                         <Font name="Tahoma" size="15.0" />
                      </font>
                   </Text>
-                  <RadioButton layoutX="157.0" layoutY="30.0" mnemonicParsing="false" text="Uttara" />
-                  <RadioButton layoutX="157.0" layoutY="58.0" mnemonicParsing="false" text="Banani" />
-                  <RadioButton layoutX="157.0" layoutY="91.0" mnemonicParsing="false" text="Gulshan" />
-                  <RadioButton layoutX="157.0" layoutY="119.0" mnemonicParsing="false" text="Moghbazar" />
-                  <RadioButton layoutX="157.0" layoutY="154.0" mnemonicParsing="false" text="Rampura" />
-                  <RadioButton layoutX="157.0" layoutY="182.0" mnemonicParsing="false" text="Dhanmondi" />
+                  <RadioButton layoutX="116.0" layoutY="61.0" mnemonicParsing="false" text="Uttara" />
+                  <RadioButton layoutX="116.0" layoutY="89.0" mnemonicParsing="false" text="Banani" />
+                  <RadioButton layoutX="116.0" layoutY="122.0" mnemonicParsing="false" text="Gulshan" />
+                  <RadioButton layoutX="116.0" layoutY="150.0" mnemonicParsing="false" text="Moghbazar" />
+                  <RadioButton layoutX="116.0" layoutY="185.0" mnemonicParsing="false" text="Rampura" />
+                  <RadioButton layoutX="116.0" layoutY="213.0" mnemonicParsing="false" text="Dhanmondi" />
                </children>
             </Pane>
-            <Text layoutX="308.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rokto- Blood Seekers Portal">
+            <Text layoutX="309.0" layoutY="21.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rokto- Blood Donors Portal">
                <font>
                   <Font name="Tahoma Bold" size="20.0" />
                </font>
             </Text>
-            <Text layoutX="71.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="If you're looking or in need of blood, please fill up the form below for us. We will help you find the perfect donor." wrappingWidth="757.5999725818635">
+            <Text layoutX="181.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="If you're looking or will donate blood, please fill up the form below for us." wrappingWidth="610.3999603748323">
                <font>
                   <Font size="15.0" />
                </font>
@@ -98,15 +95,27 @@
                      </font>
                   </Text>
                   <TextField layoutX="166.0" layoutY="205.0" prefHeight="26.0" prefWidth="183.0" promptText="Please Enter your name here." />
-                  <Text layoutX="68.0" layoutY="261.0" strokeType="OUTSIDE" strokeWidth="0.0" text="When do you need the blood?">
-                     <font>
-                        <Font name="Tahoma" size="15.0" />
-                     </font>
-                  </Text>
-                  <RadioButton layoutX="196.0" layoutY="271.0" mnemonicParsing="false" style="-fx-background-color: #dc;" text="Emergency" />
-                  <RadioButton layoutX="196.0" layoutY="299.0" mnemonicParsing="false" text="Regular" />
                </children>
             </Pane>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="133.0" prefWidth="900.0" style="-fx-background-color: #db4d4d;">
+         <children>
+            <ImageView fitHeight="139.0" fitWidth="157.0" layoutX="-2.0" layoutY="-5.0">
+               <image>
+                  <Image url="@../../../../../img/Blood%20Donation%20Logo.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="282.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rokto " wrappingWidth="307.0108337402344">
+               <font>
+                  <Font name="Tahoma" size="80.0" />
+               </font>
+            </Text>
+            <Text layoutX="382.0" layoutY="112.0" strokeType="OUTSIDE" strokeWidth="0.0" text="an innovative bloodbank">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Text>
          </children>
       </AnchorPane>
    </children>

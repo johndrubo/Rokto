@@ -1,14 +1,19 @@
 package bd.com.rokto;
 
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.Label;
 
 public class controller {
-    @FXML
-    private Label welcomeText;
+     ObservableList<String> locationpicker = FXCollections
+            .observableArrayList("Uttara","Gulshan","Banani","Dhanmondi")
 
     @FXML
-    protected void onHelloButtonClick() {
-        welcomeText.setText("Welcome to JavaFX Application!");
-    }
-}
+    private ChoiceBox locationpicker;
+    private void installize(){
+    locationpicker.set()
+
+}}
