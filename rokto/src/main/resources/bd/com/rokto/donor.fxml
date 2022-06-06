@@ -10,10 +10,9 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: #F2B8B8;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <ImageView fitHeight="139.0" fitWidth="157.0" layoutY="5.0">
+      <ImageView fitHeight="128.0" fitWidth="157.0" layoutY="5.0">
          <image>
             <Image url="@../../../../../img/Blood%20Donation%20Logo.png" />
          </image>
@@ -101,7 +100,7 @@
       </AnchorPane>
       <AnchorPane prefHeight="133.0" prefWidth="900.0" style="-fx-background-color: #db4d4d;">
          <children>
-            <ImageView fitHeight="139.0" fitWidth="157.0" layoutX="-2.0" layoutY="-5.0">
+            <ImageView fitHeight="143.0" fitWidth="157.0" layoutX="-2.0" layoutY="-9.0">
                <image>
                   <Image url="@../../../../../img/Blood%20Donation%20Logo.png" />
                </image>
